@@ -27,4 +27,4 @@ let asQiymet = 6
 
 let netice = (donerQiymet * donerSay) + (pizzaQiymet * pizzaSay) + (kolaQiymet * kolaSay) + (spriteSay * spriteQiymet) + (fantaQiymet * fantaSay) + (asQiymet * asSay) + (kelemdolmaQiymet * kelemdolmaSay) + (yarpaqdolmaQiymet * yarpaqdolmaSay) + (ucbaciQiymet * ucbaciSay)
 
-document.getElementById('netice').innerHTML = 'Sizin borcunuz', netice; , 'manatdir.'
+document.getElementById('netice').innerHTML = 'Sizin borcunuz ' + netice + ' manatdir.'
